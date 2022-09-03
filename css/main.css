@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body::-webkit-scrollbar{
+    width:0.5em;
+}
+body::-webkit-scrollbar-track{
+    background:#F6FAFC;
+}
+body::-webkit-scrollbar-thumb{
+    background:#000000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* HEADER  */
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3em ;
+}
+.logo{
+    width:20em;
+    height:5em;
+}
+.icon{
+    height: 2em;
+    width: 2em;
+    padding: 1.5em 0 0 2em;
+}
+.currency{
+    padding: 1.2em 0 0 2em;
+}
+.currency #select{
+    padding: 1em 0 1em 1em;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+}
+/* HEADER LINKS */
+.header-links{
+    padding: 2em 33em;
+}
+.header-links ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size: 1em;
+}
+ul li a:hover{
+    color:rgb(38, 148, 111);
+    transition: 20ms;
+}
+/* BANNER  */
+.banner{
+    background-image: url(../images/hp-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 33em;
+}
+.banner button{
+    padding: 2em 3em;
+    border: 1px solid #DE241C;
+    background-color: #DE241C;
+    color: #fff;
+    margin: 25% 0 0 43%;
+    cursor:pointer;
+}
+/* SUGGESTION  */
+.suggestions{
+    margin: 0 5em 5em;
+}
+.drops{
+    margin: 0 3em;
+}
+.cards{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+.suggestions h1{
+    text-align: center;
+    padding: 2em 0 1em;
+    font-size: 3em;
+}
+.item-card{
+    width: 18em;
+    height:26.5em;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(252, 252, 252)
+}
+.item-card:hover{
+    border: 1px solid #ecb8b6;
+    transition: 1s;
+}
+.item-card a{
+    text-decoration: none;
+    color: #000;
+}
+.item-card img{
+    height: 20em;
+    width: 18em;
+}
+.item-card h1{
+    font-size: 1.2em;
+}
+/* CATEGORY */
+  .category{
+    background-color: #000;
+    padding: 1em 0;
+    text-align: center;
+  }
+  .category .item-card{
+    width: 18em;
+    height:26.5em;
+    align-items: center;
+    text-align: center;
+    border: none;
+    margin: 0 1em;
+  } 
+  .item-card .wrapper{
+      display: flex;
+      flex-direction: column;
+  }
+  .item-card img{
+      margin: 0 auto;
+  }
+  .category h1{
+      color: #fff;
+      text-align: center;
+      padding: 2em 0 1em;
+      font-size: 3em;
+  }
+  .category h2{
+      color: #000;
+      margin: 0 auto;
+      padding: 1em 0;
+      background-color: #fff;
+      width: 12em;
+      text-decoration: underline;
+  }
+  .category h2:hover{
+      color:aquamarine;
+      transition: 1s;
+  }
+  .showcase-inner{
+    margin: 0 auto;
+    width: 90%;
+  }
+  /* REVIEWS */
+  .reviews{
+    padding: 0 0 3em 0;
+  }
+  .reviews h1{
+    text-align: center;
+    padding: 2em 0 1em;
+    font-size: 3em;
+    color: #ca0000;
+  }
+  .reviews-inner{
+    margin: 0 auto;
+    width: 90%;
+  }
+  .review-card{
+    background-color: #fff;
+    color: #000;
+    margin: 0 2em;
+    padding: 0 1em;
+  }
+  .reviews-inner p{
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5em;
+  }
+  .reviews-inner h4{
+    font-size: 1.3em;
+    padding: 1em 0 0;
+    text-align: center;
+    /* margin: 0 auto; */
+  }
+  /* FOOTER  */
+.footer{
+    background-color: #ca0000;
+    letter-spacing: 0;
+    padding: 0 10em;
+    color: #fff;
+}
+.footer-inner{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 4em;
+}
+.news-input button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border:none;
+    padding: 1em 2em;
+    letter-spacing: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.news-input input{
+    background-color: transparent;
+    border-color: #fff;
+    padding: 1em 2em;
+    width: 30em;
+    border-style: solid;
+    border-width:0.5px;
+    margin-top: 2em;
+}
+.news-input ::placeholder{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+.newsletter p, span{
+    padding-bottom: 2em;
+}
+.newsletter span{
+    letter-spacing: 0.5px;
+    font-size: 1em;
+}
+.rights{
+    text-align: center;
+    margin-top: 2em;
+    padding: 3em 0 2em 0;
+
+}
+.socials a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin-right: 1em;
+}
+.socials i{
+    font-size: 2em;
+}
+.socials p{
+    padding-bottom: 2em;
+}
+.import-links a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+}
+.import-links p{
+    padding-bottom: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .banner{
+        display: none;
+    }
+}

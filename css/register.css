@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body::-webkit-scrollbar{
+    width:0.5em;
+}
+body::-webkit-scrollbar-track{
+    background:#F6FAFC;
+}
+body::-webkit-scrollbar-thumb{
+    background:#000000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* HEADER  */
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3em ;
+}
+.logo{
+    width:20em;
+    height:5em;
+}
+.icon{
+    height: 2em;
+    width: 2em;
+    padding: 1.5em 0 0 2em;
+}
+.currency{
+    padding: 1.2em 0 0 2em;
+}
+.currency #select{
+    padding: 1em 0 1em 1em;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+}
+/* HEADER LINKS */
+.header-links{
+    padding: 2em 33em;
+}
+.header-links ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size: 1em;
+}
+ul li a:hover{
+    color:rgb(38, 148, 111);
+    transition: 20ms;
+}
+/* REGISTER  */
+.register{
+    align-items: center;
+    text-align: center;
+}
+.title{
+    padding-bottom: 1em;
+    font-size: 2em;
+    letter-spacing: 3px;
+
+}
+.instructions{
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 1em;
+    letter-spacing: 0px;
+}
+.register-inner{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.register-inner form input{
+    background-color: transparent;
+    border: lightgray solid 0.5px;
+    letter-spacing: 0;
+    width:30em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.register-inner button{
+    background-color:#ca0000;
+    color: white;
+    border:#ca0000 solid 0.5px;
+    padding: 1em 2em;
+    letter-spacing: 5px;
+    width: 32em;
+    cursor: pointer;
+    margin-bottom: 1em;
+ }
+ form{
+     margin:0 32%;
+ }
+ .register-inner button:hover{
+    background-color: transparent;
+    color: black;
+    border:black solid 0.5px;
+    padding: 1em 2em;
+    letter-spacing: 5px;
+    width: 32em;
+    cursor: pointer;
+    margin-bottom: 1em;
+    transition-duration: 1s;
+ }
+.login a{
+    text-decoration: none;
+    color:#ca0000;
+}
+.login a:hover{
+    color:#6cd1ff;
+    transition: 2s;
+}
+/* FOOTER  */
+.footer{
+    background-color: #000000;
+    letter-spacing: 0;
+    padding: 0 10em;
+    color: #fff;
+    text-align: left;
+}
+.footer-inner{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 4em;
+}
+.news-input button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border:none;
+    padding: 1em 2em;
+    letter-spacing: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.news-input input{
+    background-color: transparent;
+    border-color: #fff;
+    padding: 1em 2em;
+    width: 30em;
+    border-style: solid;
+    border-width:0.5px;
+    margin-top: 2em;
+}
+.news-input ::placeholder{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+.newsletter p, span{
+    padding-bottom: 2em;
+}
+.newsletter span{
+    letter-spacing: 0.5px;
+    font-size: 1em;
+}
+.rights{
+    text-align: center;
+    margin-top: 2em;
+    padding: 3em 0 2em 0;
+
+}
+.socials a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin-right: 1em;
+}
+.socials i{
+    font-size: 2em;
+}
+.socials p{
+    padding-bottom: 2em;
+}
+.import-links a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+}
+.import-links p{
+    padding-bottom: 2em;
+}

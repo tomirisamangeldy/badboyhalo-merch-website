@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body::-webkit-scrollbar{
+    width:0.5em;
+}
+body::-webkit-scrollbar-track{
+    background:#F6FAFC;
+}
+body::-webkit-scrollbar-thumb{
+    background:#000000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* HEADER  */
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3em ;
+}
+.logo{
+    width:20em;
+    height:5em;
+}
+.icon{
+    height: 2em;
+    width: 2em;
+    padding: 1.5em 0 0 2em;
+}
+.currency{
+    padding: 1.2em 0 0 2em;
+}
+.currency #select{
+    padding: 1em 0 1em 1em;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+}
+/* HEADER LINKS */
+.header-links{
+    padding: 2em 33em;
+}
+.header-links ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size: 1em;
+}
+ul li a:hover{
+    color:rgb(38, 148, 111);
+    transition: 20ms;
+}
+/* CLOTHES  */
+.hoodies, .shirts, .headwear, .drinkwear{
+    padding: 0 2em 5em;
+}
+.hoodies h1, .shirts h1, .headwear h1, .drinkwear h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 1em 0 0;
+}
+.hoodies-inner, .shirts-inner, .headwear-inner, .drinkwear-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img-wrapper img{
+    height: 15em; 
+    width: 15em;
+    border: 1px solid #fff;
+}
+.item-card{
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 2em;
+}
+.item-card:hover{
+    border: 1px solid #000;
+}
+.item-card a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.item-card p{
+    font-size: 1.6em;
+    padding: 0.5em 0
+}
+/* OTHER */
+.other{
+    padding: 0 20em;
+}
+.other h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0 2em;
+}
+.other-inner ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7em;
+    text-decoration: underline;
+}
+/* FOOTER  */
+.footer{
+    background-color: #000000;
+    letter-spacing: 0;
+    padding: 0 10em;
+    color: #fff;
+    text-align: left;
+}
+.footer-inner{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 4em;
+}
+.news-input button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border:none;
+    padding: 1em 2em;
+    letter-spacing: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.news-input input{
+    background-color: transparent;
+    border-color: #fff;
+    padding: 1em 2em;
+    width: 30em;
+    border-style: solid;
+    border-width:0.5px;
+    margin-top: 2em;
+}
+.news-input ::placeholder{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+.newsletter p, span{
+    padding-bottom: 2em;
+}
+.newsletter span{
+    letter-spacing: 0.5px;
+    font-size: 1em;
+}
+.rights{
+    text-align: center;
+    margin-top: 2em;
+    padding: 3em 0 2em 0;
+
+}
+.socials a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin-right: 1em;
+}
+.socials i{
+    font-size: 2em;
+}
+.socials p{
+    padding-bottom: 2em;
+}
+.import-links a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+}
+.import-links p{
+    padding-bottom: 2em;
+}
