@@ -2,7 +2,7 @@
 Explore the website [here](https://tomirisamangeldy.github.io/badboyhalo-merch-website/)
 
 ## Description
-I recreated the design of a real merch website (badboyhalo.com) from scratch to practice my design and JS skills.
+Merch website from scratch to practice my design and JS skills.
 
 ## Tools
 - HTML
